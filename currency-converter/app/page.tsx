@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../app/globals.css';
+import React from 'react';
 
 interface CurrencyData {
   [key: string]: number;

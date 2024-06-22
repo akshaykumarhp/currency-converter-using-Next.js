@@ -9,17 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "latest",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "axios": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
-    "tailwindcss": "latest",
-    "autoprefixer": "latest",
     "postcss": "latest",
+    "tailwindcss": "latest",
     "typescript": "latest"
   }
 }
