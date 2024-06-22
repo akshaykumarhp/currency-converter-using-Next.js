@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Currency Converter App
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Currency Converter is a web application built with Next.js that allows users to convert between different currencies in real-time. It features a clean and user-friendly interface where users can input amounts and select currencies to see live conversion rates.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Features
+
+- Real-time currency conversion
+- Support for multiple currencies
+- Clean and responsive design using Tailwind CSS
+
+## Installation
+
+To get started with the Currency Converter app, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/currency-converter.git
+   cd currency-converter
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and go to `http://localhost:3000` to view the app.
+
+## Project Structure
+
+- `public/`: Contains public assets including the logo and favicon.
+- `styles/`: Contains global CSS styles.
+- `app/`: Contains the main components and pages of the application.
+- `app/page.tsx`: The main page component which includes the currency converter logic and UI.
+
+## Usage
+
+### Customizing the Application
+
+You can customize the application by modifying the following files:
+
+- `app/page.tsx`: Main logic and layout of the currency converter.
+- `styles/globals.css`: Global styles for the application.
+
+### Environment Variables
+
+Make sure to have a `.env.local` file in your project root to manage any environment-specific variables. For example:
+
+```
+NEXT_PUBLIC_API_URL=https://open.er-api.com/v6/latest
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To deploy the app, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Build the application:**
 
-## Learn More
+   ```bash
+   npm run build
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Start the application:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm start
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Axios**: Promise-based HTTP client for making API requests.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you would like to contribute to this project, please open an issue or submit a pull request on GitHub.
+
+## Contact
+
+If you have any questions or need further assistance, feel free to contact:
+
+- **Name**: Akshay Kumar Huliyar Prabhakara
+- **Email**: ahuliyar@syr.edu
